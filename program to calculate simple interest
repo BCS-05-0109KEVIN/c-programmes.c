@@ -1,0 +1,22 @@
+//program to calculate simple interest
+#include <stdio.h>
+int main(){
+    //variables introduction
+    int principle;
+    int rate;
+    int period;
+    float amount;
+    //enter the principle
+    printf("\n Enter the principle",principle);
+    scanf("%d",&principle);
+    //enter the rate
+    printf("\n Enter the rate",rate);
+    scanf("%d",&rate);
+    //enter the period
+    printf("Enter the period",period);
+    scanf("%d",&period);
+    //amount corresponds to principle by rate by time devided by 100
+    amount=(principle*rate*period)/100;
+    printf("The amount is:%f",amount);
+    return(0);
+}
