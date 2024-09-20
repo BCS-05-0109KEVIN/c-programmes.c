@@ -17,6 +17,6 @@ int main(){
     scanf("%d",&period);
     //simple interest corresponds to principle by rate by time devided by 100
     simple_interest=(principle*rate*period)/100;
-    printf("The simple_interest is:%f",amount);
+    printf("The simple_interest is:%f",simple_interest);
     return(0);
 }
