@@ -5,7 +5,7 @@ int main(){
 //initializing and declaration
   int age;
 char a;
-char name[]={}
+char name[]={};
 float area;
 double salary;
 //enter the age
@@ -20,11 +20,11 @@ scanf("%c",&name);
 //enter the string
 printf("\n The string is:%s",name);
 //enter the area
-printf("\n Enter the area:")
+printf("\n Enter the area:");
   scanf("%f",&area);
 //enter the salary
 printf("Enter the salary:")
 scanf("%lf",&salary);
 
-return(0)
+return(0);
   }
