@@ -5,7 +5,7 @@ int main(){
     int principle;
     int rate;
     int period;
-    float simple interest;
+    float simple_interest;
     //enter the principle
     printf("\n Enter the principle",principle);
     scanf("%d",&principle);
@@ -16,7 +16,7 @@ int main(){
     printf("Enter the period",period);
     scanf("%d",&period);
     //simple interest corresponds to principle by rate by time devided by 100
-    amount=(principle*rate*period)/100;
-    printf("The simple interest is:%f",amount);
+    simple_interest=(principle*rate*period)/100;
+    printf("The simple_interest is:%f",amount);
     return(0);
 }
