@@ -13,7 +13,7 @@ printf("\n Enter the age:");
 scanf("%d",&age);
 //enter the character
 printf("\n Enter the character:");
-scanf("%c",&character);
+scanf("%c",&a);
 //enter the name
 printf("\n Enter the name");
 scanf("%c",&name);
@@ -23,7 +23,7 @@ printf("\n The string is:%s",name);
 printf("\n Enter the area:");
   scanf("%f",&area);
 //enter the salary
-printf("Enter the salary:")
+printf("Enter the salary:");
 scanf("%lf",&salary);
 
 return(0);
