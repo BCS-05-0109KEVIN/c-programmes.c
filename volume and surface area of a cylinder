@@ -7,7 +7,7 @@ int height;
 float volume;
 float surface_area;
 //constant
-int pi=(22/7);
+float pi=(3.142);
 //enter the radius
 printf("\n Enter the radius",radius);
 scanf("%d",&radius);
@@ -19,6 +19,6 @@ volume=pi*radius*radius*height;
 printf("\n The volume is:%f",volume);
 //calculating the surface_area
 surface_area=(2*pi*radius*height)+(2*pi*radius*radius);
-printf("\n The surface area is:%f",surface_area);
+printf("\n The surface area is:%f cm^2",surface_area);
     return 0;
 }
