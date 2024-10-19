@@ -1,4 +1,4 @@
-//FINE FOR OVERDUE LIBRARY BOOKS
+///FINE FOR OVERDUE LIBRARY BOOKS
 #include<stdio.h>
 //function prototype
 int library();
@@ -72,7 +72,7 @@ return(0);
 		printf("\n The fine amount is:%f ksh ",fine_amount1);
 		}
 
-		if(days_overdue>=8 && days_overdue<=14)
+		else if(days_overdue>=8 && days_overdue<=14)
 		{
 		printf("\n The fine rate is:%d ksh",fine_rate2);
 		//calculating the  fine amount 2
@@ -80,7 +80,7 @@ return(0);
 		printf("\n The fine amount is:%f ksh",fine_amount2);
 		}
 
-		if(days_overdue>=15)
+		else if(days_overdue>=15)
 		{
 		printf("\n The fine rate is :%d ksh",fine_rate3);
 
